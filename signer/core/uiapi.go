@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/CryptexWebDev/Dorol-Chain/accounts"
+	"github.com/CryptexWebDev/Dorol-Chain/accounts/keystore"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/math"
+	"github.com/CryptexWebDev/Dorol-Chain/crypto"
 )
 
 // UIServerAPI implements methods Clef provides for a UI to query, in the bidirectional communication

@@ -28,11 +28,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/CryptexWebDev/Dorol-Chain/crypto"
+	"github.com/CryptexWebDev/Dorol-Chain/crypto/ecies"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/simulations/pipes"
+	"github.com/CryptexWebDev/Dorol-Chain/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/eth"
+	"github.com/CryptexWebDev/Dorol-Chain/eth/downloader"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/node"
 )
 
 // FullSyncTester is an auxiliary service that allows Geth to perform full sync

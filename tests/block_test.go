@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/core/rawdb"
 )
 
 func TestBlockchain(t *testing.T) {

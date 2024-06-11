@@ -28,18 +28,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/core/rawdb"
+	"github.com/CryptexWebDev/Dorol-Chain/core/state/snapshot"
+	"github.com/CryptexWebDev/Dorol-Chain/core/tracing"
+	"github.com/CryptexWebDev/Dorol-Chain/core/types"
+	"github.com/CryptexWebDev/Dorol-Chain/crypto"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/params"
+	"github.com/CryptexWebDev/Dorol-Chain/trie"
+	"github.com/CryptexWebDev/Dorol-Chain/trie/trienode"
+	"github.com/CryptexWebDev/Dorol-Chain/trie/triestate"
+	"github.com/CryptexWebDev/Dorol-Chain/trie/utils"
 	"github.com/holiman/uint256"
 	"golang.org/x/sync/errgroup"
 )
@@ -217,7 +217,7 @@ func (s *StateDB) StartPrefetcher(namespace string) {
 		//
 		// To prevent this, the account trie is always scheduled for prefetching once
 		// the prefetcher is constructed. For more details, see:
-		// https://github.com/ethereum/go-ethereum/issues/29880
+		// https://github.com/CryptexWebDev/Dorol-Chain/issues/29880
 		if err := s.prefetcher.prefetch(common.Hash{}, s.originalRoot, common.Address{}, nil); err != nil {
 			log.Error("Failed to prefetch account trie", "root", s.originalRoot, "err", err)
 		}

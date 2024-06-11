@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/CryptexWebDev/Dorol-Chain/common/mclock"
+	"github.com/CryptexWebDev/Dorol-Chain/event"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/metrics"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enode"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enr"
+	"github.com/CryptexWebDev/Dorol-Chain/rlp"
 )
 
 var (

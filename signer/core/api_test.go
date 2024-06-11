@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/CryptexWebDev/Dorol-Chain/accounts"
+	"github.com/CryptexWebDev/Dorol-Chain/accounts/keystore"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/hexutil"
+	"github.com/CryptexWebDev/Dorol-Chain/core/types"
+	"github.com/CryptexWebDev/Dorol-Chain/internal/ethapi"
+	"github.com/CryptexWebDev/Dorol-Chain/rlp"
+	"github.com/CryptexWebDev/Dorol-Chain/signer/core"
+	"github.com/CryptexWebDev/Dorol-Chain/signer/core/apitypes"
+	"github.com/CryptexWebDev/Dorol-Chain/signer/fourbyte"
+	"github.com/CryptexWebDev/Dorol-Chain/signer/storage"
 )
 
 // Used for testing

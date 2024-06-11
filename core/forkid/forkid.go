@@ -27,9 +27,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/CryptexWebDev/Dorol-Chain/core/types"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/params"
 )
 
 var (

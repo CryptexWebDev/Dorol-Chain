@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/ethdb"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

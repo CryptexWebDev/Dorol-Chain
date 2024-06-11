@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/CryptexWebDev/Dorol-Chain/cmd/devp2p/internal/ethtest"
+	"github.com/CryptexWebDev/Dorol-Chain/crypto"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enode"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/rlpx"
+	"github.com/CryptexWebDev/Dorol-Chain/rlp"
 	"github.com/urfave/cli/v2"
 )
 

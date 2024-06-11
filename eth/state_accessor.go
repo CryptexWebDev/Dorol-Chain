@@ -22,16 +22,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/core"
+	"github.com/CryptexWebDev/Dorol-Chain/core/rawdb"
+	"github.com/CryptexWebDev/Dorol-Chain/core/state"
+	"github.com/CryptexWebDev/Dorol-Chain/core/types"
+	"github.com/CryptexWebDev/Dorol-Chain/core/vm"
+	"github.com/CryptexWebDev/Dorol-Chain/eth/tracers"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/trie"
+	"github.com/CryptexWebDev/Dorol-Chain/triedb"
 )
 
 // noopReleaser is returned in case there is no operation expected

@@ -21,9 +21,9 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/core/tracing"
+	"github.com/CryptexWebDev/Dorol-Chain/params"
 	"github.com/holiman/uint256"
 )
 

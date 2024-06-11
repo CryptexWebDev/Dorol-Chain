@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/CryptexWebDev/Dorol-Chain/common/mclock"
+	"github.com/CryptexWebDev/Dorol-Chain/crypto"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/discover/v5wire"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enode"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enr"
 )
 
 // readError represents an error during packet reading.

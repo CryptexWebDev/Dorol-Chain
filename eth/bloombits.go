@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/CryptexWebDev/Dorol-Chain/common/bitutil"
+	"github.com/CryptexWebDev/Dorol-Chain/core/rawdb"
 )
 
 const (

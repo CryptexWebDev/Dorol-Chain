@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/merkle"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/params"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	ctypes "github.com/CryptexWebDev/Dorol-Chain/core/types"
 )
 
 // HeadInfo represents an unvalidated new head announcement.

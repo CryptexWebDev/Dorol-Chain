@@ -10,15 +10,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/hexutil"
+	"github.com/CryptexWebDev/Dorol-Chain/core"
+	"github.com/CryptexWebDev/Dorol-Chain/core/rawdb"
+	"github.com/CryptexWebDev/Dorol-Chain/core/types"
+	"github.com/CryptexWebDev/Dorol-Chain/core/vm"
+	"github.com/CryptexWebDev/Dorol-Chain/eth/tracers"
+	"github.com/CryptexWebDev/Dorol-Chain/rlp"
+	"github.com/CryptexWebDev/Dorol-Chain/tests"
 )
 
 // flatCallTrace is the result of a callTracerParity run.

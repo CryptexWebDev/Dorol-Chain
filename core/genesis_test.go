@@ -23,16 +23,16 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/consensus/ethash"
+	"github.com/CryptexWebDev/Dorol-Chain/core/rawdb"
+	"github.com/CryptexWebDev/Dorol-Chain/core/types"
+	"github.com/CryptexWebDev/Dorol-Chain/core/vm"
+	"github.com/CryptexWebDev/Dorol-Chain/ethdb"
+	"github.com/CryptexWebDev/Dorol-Chain/params"
+	"github.com/CryptexWebDev/Dorol-Chain/triedb"
+	"github.com/CryptexWebDev/Dorol-Chain/triedb/pathdb"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
 )
 
 func TestInvalidCliqueConfig(t *testing.T) {

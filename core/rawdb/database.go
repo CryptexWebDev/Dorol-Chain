@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/ethdb"
+	"github.com/CryptexWebDev/Dorol-Chain/ethdb/leveldb"
+	"github.com/CryptexWebDev/Dorol-Chain/ethdb/memorydb"
+	"github.com/CryptexWebDev/Dorol-Chain/ethdb/pebble"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
 	"github.com/olekukonko/tablewriter"
 )
 

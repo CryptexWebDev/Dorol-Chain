@@ -30,12 +30,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/mclock"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/metrics"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enode"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/netutil"
 )
 
 const (
@@ -452,9 +452,7 @@ func (tab *Table) loadSeedNodes() {
 			addr, _ := seed.UDPEndpoint()
 			tab.log.Trace("Found seed node in database", "id", seed.ID(), "addr", addr, "age", age)
 		}
-		tab.mutex.Lock()
 		tab.handleAddNode(addNodeOp{node: seed, isInbound: false})
-		tab.mutex.Unlock()
 	}
 }
 

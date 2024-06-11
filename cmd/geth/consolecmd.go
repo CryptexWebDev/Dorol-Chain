@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/CryptexWebDev/Dorol-Chain/cmd/utils"
+	"github.com/CryptexWebDev/Dorol-Chain/console"
+	"github.com/CryptexWebDev/Dorol-Chain/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

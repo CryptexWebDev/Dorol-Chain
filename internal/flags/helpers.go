@@ -23,9 +23,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/CryptexWebDev/Dorol-Chain/internal/version"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/params"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 )

@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/hexutil"
+	"github.com/CryptexWebDev/Dorol-Chain/eth"
+	"github.com/CryptexWebDev/Dorol-Chain/eth/catalyst"
+	"github.com/CryptexWebDev/Dorol-Chain/eth/ethconfig"
+	"github.com/CryptexWebDev/Dorol-Chain/internal/utesting"
+	"github.com/CryptexWebDev/Dorol-Chain/node"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p"
 )
 
 func makeJWTSecret() (string, [32]byte, error) {

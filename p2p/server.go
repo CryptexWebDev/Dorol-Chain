@@ -19,7 +19,6 @@ package p2p
 
 import (
 	"bytes"
-	"cmp"
 	"crypto/ecdsa"
 	"encoding/hex"
 	"errors"
@@ -31,16 +30,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/mclock"
+	"github.com/CryptexWebDev/Dorol-Chain/crypto"
+	"github.com/CryptexWebDev/Dorol-Chain/event"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/discover"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enode"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/enr"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/nat"
+	"github.com/CryptexWebDev/Dorol-Chain/p2p/netutil"
 )
 
 const (
@@ -1141,9 +1140,12 @@ func (srv *Server) PeersInfo() []*PeerInfo {
 		}
 	}
 	// Sort the result array alphabetically by node identifier
-	slices.SortFunc(infos, func(a, b *PeerInfo) int {
-		return cmp.Compare(a.ID, b.ID)
-	})
-
+	for i := 0; i < len(infos); i++ {
+		for j := i + 1; j < len(infos); j++ {
+			if infos[i].ID > infos[j].ID {
+				infos[i], infos[j] = infos[j], infos[i]
+			}
+		}
+	}
 	return infos
 }

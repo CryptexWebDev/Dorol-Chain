@@ -26,13 +26,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/merkle"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/params"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/types"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/hexutil"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
 	"github.com/donovanhide/eventsource"
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

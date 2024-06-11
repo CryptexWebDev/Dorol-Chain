@@ -21,9 +21,9 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/merkle"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/params"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
 	zrntcommon "github.com/protolambda/zrnt/eth2/beacon/common"
 )
 

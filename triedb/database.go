@@ -19,16 +19,16 @@ package triedb
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
-	"github.com/ethereum/go-ethereum/triedb/database"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/core/rawdb"
+	"github.com/CryptexWebDev/Dorol-Chain/ethdb"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
+	"github.com/CryptexWebDev/Dorol-Chain/trie"
+	"github.com/CryptexWebDev/Dorol-Chain/trie/trienode"
+	"github.com/CryptexWebDev/Dorol-Chain/trie/triestate"
+	"github.com/CryptexWebDev/Dorol-Chain/triedb/database"
+	"github.com/CryptexWebDev/Dorol-Chain/triedb/hashdb"
+	"github.com/CryptexWebDev/Dorol-Chain/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

@@ -17,14 +17,14 @@
 package blsync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/light/sync"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/light/request"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/light/sync"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/params"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/types"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common/lru"
+	"github.com/CryptexWebDev/Dorol-Chain/event"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
 )
 
 // beaconBlockSync implements request.Module; it fetches the beacon blocks belonging

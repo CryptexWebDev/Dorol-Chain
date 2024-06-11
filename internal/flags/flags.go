@@ -28,7 +28,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/CryptexWebDev/Dorol-Chain/common/math"
 	"github.com/urfave/cli/v2"
 )
 

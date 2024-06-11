@@ -19,7 +19,7 @@ package state
 import (
 	"maps"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
 	"github.com/holiman/uint256"
 )
 

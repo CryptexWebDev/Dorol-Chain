@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/CryptexWebDev/Dorol-Chain/accounts/scwallet"
+	"github.com/CryptexWebDev/Dorol-Chain/accounts/usbwallet"
+	"github.com/CryptexWebDev/Dorol-Chain/common/hexutil"
+	"github.com/CryptexWebDev/Dorol-Chain/console/prompt"
+	"github.com/CryptexWebDev/Dorol-Chain/internal/jsre"
+	"github.com/CryptexWebDev/Dorol-Chain/rpc"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

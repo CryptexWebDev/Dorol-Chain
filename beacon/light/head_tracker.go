@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/CryptexWebDev/Dorol-Chain/beacon/types"
+	"github.com/CryptexWebDev/Dorol-Chain/log"
 )
 
 // HeadTracker keeps track of the latest validated head and the "prefetch" head

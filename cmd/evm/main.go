@@ -22,14 +22,14 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/CryptexWebDev/Dorol-Chain/cmd/evm/internal/t8ntool"
+	"github.com/CryptexWebDev/Dorol-Chain/internal/debug"
+	"github.com/CryptexWebDev/Dorol-Chain/internal/flags"
 	"github.com/urfave/cli/v2"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/CryptexWebDev/Dorol-Chain/eth/tracers/js"
+	_ "github.com/CryptexWebDev/Dorol-Chain/eth/tracers/native"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/CryptexWebDev/Dorol-Chain/common"
 )
 
 // TestExport does a basic test of "geth export", exporting the test-genesis.
