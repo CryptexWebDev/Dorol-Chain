@@ -43,12 +43,11 @@ import (
 	_ "github.com/CryptexWebDev/Dorol-Chain/eth/tracers/js"
 	_ "github.com/CryptexWebDev/Dorol-Chain/eth/tracers/live"
 	_ "github.com/CryptexWebDev/Dorol-Chain/eth/tracers/native"
-
-	"github.com/urfave/cli/v2"
+	cli "github.com/urfave/cli/v2"
 )
 
 const (
-	clientIdentifier = "geth" // Client identifier to advertise over the network
+	clientIdentifier = "drl-geth   " // Client identifier to advertise over the network
 )
 
 var (

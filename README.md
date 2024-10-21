@@ -1,3 +1,8 @@
+## Go Ethereum Based DOROL Blockchain node
+
+This version of go-ethereum modified for run  Dorol Chain execution layer node. 
+Please don't use it on ethereum mainnet or test net. 
+
 ## Go Ethereum
 
 Golang execution layer implementation of the Ethereum protocol.

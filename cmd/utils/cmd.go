@@ -47,7 +47,7 @@ import (
 	"github.com/CryptexWebDev/Dorol-Chain/node"
 	"github.com/CryptexWebDev/Dorol-Chain/params"
 	"github.com/CryptexWebDev/Dorol-Chain/rlp"
-	"github.com/urfave/cli/v2"
+	cli "github.com/urfave/cli/v2"
 )
 
 const (

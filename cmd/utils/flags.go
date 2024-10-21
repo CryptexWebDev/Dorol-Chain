@@ -76,7 +76,7 @@ import (
 	"github.com/CryptexWebDev/Dorol-Chain/triedb/pathdb"
 	pcsclite "github.com/gballet/go-libpcsclite"
 	gopsutil "github.com/shirou/gopsutil/mem"
-	"github.com/urfave/cli/v2"
+	cli "github.com/urfave/cli/v2"
 )
 
 // These are all the command line flags we support.
@@ -766,7 +766,7 @@ var (
 	ListenPortFlag = &cli.IntFlag{
 		Name:     "port",
 		Usage:    "Network listening port",
-		Value:    30303,
+		Value:    38303,
 		Category: flags.NetworkingCategory,
 	}
 	BootnodesFlag = &cli.StringFlag{
@@ -822,7 +822,7 @@ var (
 	DiscoveryPortFlag = &cli.IntFlag{
 		Name:     "discovery.port",
 		Usage:    "Use a custom UDP port for P2P discovery",
-		Value:    30303,
+		Value:    38303,
 		Category: flags.NetworkingCategory,
 	}
 
@@ -1789,7 +1789,7 @@ func SetEthConfig(ctx *cli.Context, stack *node.Node, cfg *ethconfig.Config) {
 	switch {
 	case ctx.Bool(MainnetFlag.Name):
 		if !ctx.IsSet(NetworkIdFlag.Name) {
-			cfg.NetworkId = 1
+			cfg.NetworkId = 39010
 		}
 		cfg.Genesis = core.DefaultGenesisBlock()
 		SetDNSDiscoveryDefaults(cfg, params.MainnetGenesisHash)
