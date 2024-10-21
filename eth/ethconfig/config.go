@@ -50,7 +50,7 @@ var FullNodeGPO = gasprice.Config{
 // Defaults contains default settings for use on the DorolChain main net.
 var Defaults = Config{
 	SyncMode:           downloader.SnapSync,
-	NetworkId:          100451, // enable auto configuration of networkID == chainID
+	NetworkId:          39010, // enable auto configuration of networkID == chainID
 	TxLookupLimit:      2350000,
 	TransactionHistory: 2350000,
 	StateHistory:       params.FullImmutabilityThreshold,

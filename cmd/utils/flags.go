@@ -590,6 +590,7 @@ var (
 	JWTSecretFlag = &flags.DirectoryFlag{
 		Name:     "authrpc.jwtsecret",
 		Usage:    "Path to a JWT secret to use for authenticated RPC endpoints",
+		Value:    flags.DirectoryString(filepath.Join(node.DefaultDataDir(), "jwt.hex")),
 		Category: flags.APICategory,
 	}
 
@@ -769,6 +770,7 @@ var (
 		Value:    38303,
 		Category: flags.NetworkingCategory,
 	}
+	//TODO add boot nodes list
 	BootnodesFlag = &cli.StringFlag{
 		Name:     "bootnodes",
 		Usage:    "Comma separated enode URLs for P2P discovery bootstrap",
@@ -822,7 +824,7 @@ var (
 	DiscoveryPortFlag = &cli.IntFlag{
 		Name:     "discovery.port",
 		Usage:    "Use a custom UDP port for P2P discovery",
-		Value:    38303,
+		Value:    30303,
 		Category: flags.NetworkingCategory,
 	}
 
@@ -1791,6 +1793,8 @@ func SetEthConfig(ctx *cli.Context, stack *node.Node, cfg *ethconfig.Config) {
 		if !ctx.IsSet(NetworkIdFlag.Name) {
 			cfg.NetworkId = 39010
 		}
+		//TODO Remove debug out
+		println("Default Genesis block load")
 		cfg.Genesis = core.DefaultGenesisBlock()
 		SetDNSDiscoveryDefaults(cfg, params.MainnetGenesisHash)
 	case ctx.Bool(HoleskyFlag.Name):

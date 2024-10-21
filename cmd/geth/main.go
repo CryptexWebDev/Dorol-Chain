@@ -47,7 +47,7 @@ import (
 )
 
 const (
-	clientIdentifier = "drl-geth   " // Client identifier to advertise over the network
+	clientIdentifier = "drl-geth" // Client identifier to advertise over the network
 )
 
 var (

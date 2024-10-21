@@ -20,12 +20,22 @@ import "github.com/CryptexWebDev/Dorol-Chain/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.
+//
+//	 Original MainNet ethereum bootnodes list
+//		var MainnetBootnodes = []string{
+//			// Ethereum Foundation Go Bootnodes
+//			"enode://d860a01f9722d78051619d1e2351aba3f43f943f6f00718d1b9baa4101932a1f5011f16bb2b1bb35db20d6fe28fa0bf09636d26a87d31de9ec6203eeedb1f666@18.138.108.67:30303", // bootnode-aws-ap-southeast-1-001
+//			"enode://22a8232c3abc76a16ae9d6c3b164f98775fe226f0917b0ca871128a74a8e9630b458460865bab457221f1d448dd9791d24c4e5d88786180ac185df813a68d4de@3.209.45.79:30303",   // bootnode-aws-us-east-1-001
+//			"enode://2b252ab6a1d0f971d9722cb839a42cb81db019ba44c08754628ab4a823487071b5695317c8ccd085219c3a03af063495b2f1da8d18218da2d6a82981b45e6ffc@65.108.70.101:30303", // bootnode-hetzner-hel
+//			"enode://4aeb4ab6c14b23e2c4cfdce879c04b0748a20d8e9b59e25ded2a08143e265c6c25936e74cbc8e641e3312ca288673d91f2f93f8e277de3cfa444ecdaaf982052@157.90.35.166:30303", // bootnode-hetzner-fsn
+//		}
+//
+// MainnetBootnodes changed to DOROL bootnodes
 var MainnetBootnodes = []string{
-	// Ethereum Foundation Go Bootnodes
-	"enode://d860a01f9722d78051619d1e2351aba3f43f943f6f00718d1b9baa4101932a1f5011f16bb2b1bb35db20d6fe28fa0bf09636d26a87d31de9ec6203eeedb1f666@18.138.108.67:30303", // bootnode-aws-ap-southeast-1-001
-	"enode://22a8232c3abc76a16ae9d6c3b164f98775fe226f0917b0ca871128a74a8e9630b458460865bab457221f1d448dd9791d24c4e5d88786180ac185df813a68d4de@3.209.45.79:30303",   // bootnode-aws-us-east-1-001
-	"enode://2b252ab6a1d0f971d9722cb839a42cb81db019ba44c08754628ab4a823487071b5695317c8ccd085219c3a03af063495b2f1da8d18218da2d6a82981b45e6ffc@65.108.70.101:30303", // bootnode-hetzner-hel
-	"enode://4aeb4ab6c14b23e2c4cfdce879c04b0748a20d8e9b59e25ded2a08143e265c6c25936e74cbc8e641e3312ca288673d91f2f93f8e277de3cfa444ecdaaf982052@157.90.35.166:30303", // bootnode-hetzner-fsn
+	// DODOL Default Bootnodes
+	"enode://602896964088aa3898e4109cf92b3ea5fd9a15756f7f1334006ef4994fe4220d57c90d6724d19b7ae0748fc96f0437661c714ebc9dfcd3d5d69ce5440c08e440@51.195.4.133:30303",
+	"enode://2f244f2e2288fe8a6945adaee40f8bc6dc4e669b22a24274ce80de113f91b79a8d31b9a2860484402a2d266e280f6799f8c214a03ab46a1da39c6f8e515e49de@92.222.100.216:39490",
+	"enode://ad16cac80f262f7dd5438d414a77b3023ffbea621be1a2a8808ec9a824407275c445a844a4797c0810cc196a8f768dda8a33f5a1b81c27c473a58d9777c2bf14@152.228.221.170:30401",
 }
 
 // HoleskyBootnodes are the enode URLs of the P2P bootstrap nodes running on the
