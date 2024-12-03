@@ -33,7 +33,7 @@ build_and_package() {
 
     mkdir -p "${output_path}"
 
-    GOOS="${os}" GOARCH="${arch}" go build -o ${BUILD_DIR}/$binary_name
+    GOOS="${os}" GOARCH="${arch}" CGO_ENABLED=0 go build -o ${BUILD_DIR}/$binary_name
 
     mv ${BUILD_DIR}/$binary_name "${output_path}"/geth
 
