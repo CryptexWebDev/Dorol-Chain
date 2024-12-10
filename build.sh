@@ -29,7 +29,7 @@ build_and_package() {
 
     local binary_name="${PROJECT_NAME}-${os}-${arch}"
     local output_path="${ROOT_DIR}/dist/${os}_${arch}"
-    local archive_name="geth-${binary_name}.tar.gz"
+    local archive_name="${binary_name}.tar.gz"
 
     mkdir -p "${output_path}"
 
