@@ -545,7 +545,7 @@ func DefaultGenesisBlock() *Genesis {
 		ExtraData:  hexutil.MustDecode(dorolExtraData),
 		GasLimit:   0x1c9c380,
 		Difficulty: big.NewInt(0x1),
-		Timestamp:  0x67084583,
+		Timestamp:  allocDorolGenesisTimestamp,
 		Alloc:      decodePrealloc(allocDorolGenesisData),
 	}
 }
